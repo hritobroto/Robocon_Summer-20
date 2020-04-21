@@ -32,3 +32,16 @@ made the server requests the client for the numbers required for
 3
 the operation, collects it, performs the operation and returns
 the result to the client.
+
+
+#### PID
+Study PID thoroughly.
+Given bot has a MPU6050 sensor, 2 L298 motor driver and 4 omni wheels
+which will go in a square path without any deviation (use pid for
+error correction).
+* Below is the frame given for the bot.
+* The bot is not allowed to rotate.
+* The size of the square is not of importance. It is significantly
+bigger than the bot.
+Code a solution for the same which has to be demonstrated at the end
+of vacation.
