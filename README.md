@@ -53,6 +53,6 @@ versatile implemented in Python.
 Document the following:
 * Implementation
 * Working
-##### Bonus Task
+###### Bonus Task
 Implement the aforementioned Calculator program using MQTT.
 Note: This task carries bonus points for solving it
