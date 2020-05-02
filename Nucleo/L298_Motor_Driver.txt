@@ -1,0 +1,26 @@
+#include "mbed.h"
+PwmOut motor(D6);
+DigitalIn button(USER_BUTTON);
+DigitalOut IN1(D2);
+DigitalOut IN2(D4);
+
+int main()
+{
+	motor.period(4.0f);//4 second period
+	motor.write(0.50f);//50% duty cycle 
+	while(1)
+	{
+		if(button==0)
+		{
+			P6=0;
+			IN1=1;
+			IN2=0;
+		}
+		else if(button==1)
+		{
+			P6=1;
+			IN1=0;
+			IN2=1;
+		}
+	}
+}

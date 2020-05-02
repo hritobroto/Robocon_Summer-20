@@ -1,0 +1,8 @@
+#include "mbed.h"
+PwmOut motor(PA_7);
+int main() 
+{
+	motor.period_ms(20); 
+	motor.pulsewidth_ms(2);
+	wait(1);
+}
