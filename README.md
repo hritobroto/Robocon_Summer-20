@@ -45,3 +45,14 @@ error correction).
 bigger than the bot.
 Code a solution for the same which has to be demonstrated at the end
 of vacation.
+
+
+#### MQTT
+MQTT is a communication protocol which is extremely powerful and
+versatile implemented in Python.
+Document the following:
+* Implementation
+* Working
+##### Bonus Task
+Implement the aforementioned Calculator program using MQTT.
+Note: This task carries bonus points for solving it
